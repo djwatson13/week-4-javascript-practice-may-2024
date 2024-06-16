@@ -53,7 +53,8 @@
   <p>POP QUIZ: what is the value at x=20?</p>
   <pre>
     f(20) = 20 * .25 + 5
-    f(20) = ?
+    f(20) = 5 + 5
+    f(20) = 10
   </pre>
 
   <p>I hope you can see the power of functions here!</p>
@@ -92,6 +93,8 @@
     For x = 20...
     f(x) =
     <script>
+      y3 = f(20)
+      document.write(y3);
     </script>
   </p>
   <h3>Example 2</h3>
@@ -151,24 +154,26 @@
     For x = 15...
     g(x) =
     <script>
-      z3 = g();
-      document.write();
+      z3 = g(15);
+      document.write(z3);
     </script>
   </p>
   <h4> TODO: You try this one! </h4>
   <p>
     For x = 21...
-    g(x) = ?
+    g(x) = 
     <script>
-
+      z4 = g(21)
+      document.write(z4);
     </script>
   </p>
   <h4> TODO: You try this one! </h4>
   <p>
     For x = 1001...
-    g(x) = ?
+    g(x) = 
     <script>
-
+      z5 = g(1001)
+      document.write(z5)
     </script>
   </p>
 
@@ -181,10 +186,62 @@
   <p> In the space bellow, write the html tags and javascript code to make your functions. Write the code to write the
     results of the functions to the page. </p>
 
+  <script>
+    let x1;
+    let x2;
+    let x3;
+    let x4;
+    let x5;
+  
+    function h(x) {
+      return x * 1.5 + 5;
+    }
+   </script>
 
+  <p>
+  For x = 5...
+  h(x) =
+  <script>
+    x1 = h(5);
+    document.write(x1);
+  </script>
+</p>
 
+<p>
+  For x = 10...
+  h(x) =
+  <script>
+    x2 = h(10);
+    document.write(x2);
+  </script>
+</p>
 
+<p>
+  For x = 15...
+  h(x) =
+  <script>
+    x3 = h(15);
+    document.write(x3);
+  </script>
+</p>
 
+<p>
+  For x = 21...
+  h(x) =
+  <script>
+    x4 = h(21);
+    document.write(x4);
+  </script>
+</p>
+
+<p>
+  For x = 1001...
+  h(x) =
+  <script>
+    x5 = h(1001);
+    document.write(x5);
+  </script>
+</p>
 
 
 
